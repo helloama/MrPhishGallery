@@ -3,11 +3,10 @@
     {
       "type": "application/spawnpoint",
       "content": {
-        "position": [0,70,0],
-        "quaternion": [0, 0.0,0, 0.0]
+        "position": [9.95,7.40,13.89]
       }
     },
-    {
+		{
       "type": "application/light",
       "content": {
         "lightType": "ambient",
@@ -24,18 +23,6 @@
       }
     },
     {
-      "type": "application/rendersettings",
-      "content": {
-        "fog": {
-          "fogType": "exp",
-          "args": [[7, 44.5, 41.5], 0]
-        },
-        "webaWater": {
-          
-        }
-      }
-    },
-    {
       "position": [
         0,
         0,
@@ -45,12 +32,40 @@
     },
     {
       "position": [
+        -26,
+        0,
+        -2
+      ],
+      "quaternion": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "start_url": "https://webaverse.github.io/app/public/avatars/scillia.vrm"
+    },
+    {
+            "position": [
         0,
         0,
         0
       ],
-      "start_url": "https://helloama.github.io/PhettaverseCity/fullgallery-v1.glb"
+      "quaternion": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "start_url": "https://webaverse.github.io/water/"
     },
-    { "position": [ 0, 0, 0 ], "start_url": "https://webaverse.github.io/dual-contouring-terrain/" }
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "physics": true,
+      "start_url": "https://helloama.github.io/phettasword/webaverseocean.glb"
+    }
   ]
 }
